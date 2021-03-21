@@ -1,0 +1,71 @@
+.friendsListWrapper {
+  width: 50%;
+  border: 1px solid #eaecf0;
+  border-radius: 3px;
+  transition: all 0.4s ease-out;
+}
+.friendsListWrapper .title {
+  padding: 10px;
+  color: #50555a;
+  font-size: 16px;
+  background-color: #f5f6f7;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 16px;
+  border-bottom: 1px solid #eaecf0;
+}
+.friendsListWrapper .body .searchContainer {
+  width: 100%;
+  height: 36px;
+  border-bottom: 1px solid #eaecf0;
+  font-size: 14px;
+  padding-right: 5px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+}
+.friendsListWrapper .body .searchContainer input {
+  width: calc(100% - 20px);
+  height: 100%;
+  border: none;
+  box-sizing: border-box;
+  line-height: 30px;
+  padding-left: 10px;
+  outline: none;
+}
+.friendsListWrapper .body .searchContainer .icon {
+  cursor: auto;
+  width: 20px;
+  height: 100%;
+}
+.friendsListWrapper .body .listWrapper {
+  height: 200px;
+}
+.friendsListWrapper .body .resetHeight {
+  height: 246px;
+}
+.friendsListWrapper .body .listWrapper .noData {
+  display: flex;
+  height: 246px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #424755;
+  padding: 0 20px;
+}
+.friendsListWrapper .body .listWrapper .noData .text {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.confirmPopupOverlay {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+  transition: all 0.4s ease-out;
+}

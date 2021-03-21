@@ -1,0 +1,65 @@
+.promptWrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  background: #f5f6f7;
+  text-align: center;
+  width: 350px;
+}
+.closePrompt {
+  color: #c5c5c5;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+.promptTitleWrapper {
+  background: #f8f8f8;
+  padding: 10px 15px;
+  position: relative;
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px 4px 0px 0px;
+}
+.promptTitle {
+  font-weight: 600;
+  font-size: 14px;
+  color: #424755;
+  margin: 0;
+}
+.promptMessageWrapper {
+  padding: 20px;
+}
+.promptMessage {
+  font-size: 14px;
+  line-height: 20px;
+  color: #424755;
+}
+.promptNote {
+  font-size: 12px;
+  line-height: 12px;
+  color: #6e757d;
+  font-style: italic;
+  margin-top: 10px;
+}
+.promptButtonWrapper {
+  margin-top: 20px;
+}
+.promptButton {
+  padding: 9px 15px;
+  background: #eaecf1;
+  margin-right: 15px;
+  border-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #000000;
+}
+.promptYesButton {
+  background: #9c70f4;
+  color: #ffffff;
+}
