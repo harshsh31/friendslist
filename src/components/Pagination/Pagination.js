@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import "./Pagination.css";
 
 export default class Pagination extends Component {
+  constructor(props) {
+    super(props);
+    this.getPages = this.getPages.bind(this);
+  }
   getPages(currentPage, totalPage, visible) {
     var pages = [];
 
@@ -76,7 +80,7 @@ export default class Pagination extends Component {
           onClick={() => onPageChange(page + 1)}
           disabled={!canNext}
         >
-          >
+          {">"}
         </button>
         <button
           className={`${"buttons"} ${"initial"}`}
